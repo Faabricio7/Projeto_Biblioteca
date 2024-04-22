@@ -96,23 +96,69 @@
                         </div>
                     </div>
                     <div id="lupa-grld">
-                        <button type="button" class="button blue mobile" id="cadastrar\aluno">Cadastrar Novo Aluno</button>
+                        <button type="button" class="button blue mobile" id="cadastrar\Funcionarios">Cadastrar Novo Funcionarios</button>
                     </div>
                 <br>
 
-                <table id="tableAluno" class="records">
+                <table id="tableFuncionario" class="records">
                     <thead>
                         <tr>
                             <!--TH é coluna-->
                             <th>Nome</th>
                             <th>Matricula</th>
-                            <th>cpf</th>
-                            <th>celular</th>
+                            <th>Cpf</th>
+                            <th>Celular</th>
                             <th>E-mail</th>
-                            <th>açâo</th>
+                            <th>Açâo</th>
                         </tr>
                     </thead>
                     <tbody>
+                       </table>
+                       <!-- MODAL APAGAR -->
+                    </div class="modal" id="modal2">
+                        </div class="modal-content">
+                            <header class="modal-header">
+                                <h2>excluir Funcionarios</h2>
+                                <span class="modal-close" id="modalclose2">&#10006;</span>
+                            </header>
+                        </div id="avisodelete">
+                            <!-- aviso de delete -->
+                           </div>
+                           <footer class="modal-footer">
+                            <button id="APAGAR" class="button red">APAGAR</button>
+                            <button id="cancelar2" class="button-blue">cancelar</button>
+                           </footer>
+                            <!--modal criar editar-->
+                <div class="modal" id="modal">
+                    <div class="modal-content">
+                        <header class="modal-header">
+                            <h2>Novo Funcionarios</h2>
+                            <span class="modal-close" id="modalClose">&#10006</span>
+                        </header>
+                        <form id="form" class="modal-form">
+                            <!--CRIAR UMA CAIXA -->
+                            <input type="text" id="nome"data-index="new" class="modal-field" placeholder="Nome do Funcionarios" required>  <!--required é algo obrigatori tipo o email-->
+                            <input type="number" id="Matricula"class="modal-field" placeholder="Matricula do Funcionarios" required>
+                            <input type="text" id="telefone"class="modal-field" placeholder="Telefone do Funcionarios" required>
+                            <input type="text" id="celular" class="modal-field" placeholder="celular do Funcionarios" required>
+                            <input type="email" id="email" class="modal-field" placeholder="E-mail do Funcionarios" required>
+                            <input type="text" id="rua"class="modal-field" placeholder="Endereço do Funcionarios" required>
+                            <input type="number" id="numero"data-index="new" class="modal-field" placeholder="Número da Recidencia" required>
+                            <input type="text" id="complemento"class="modal-field" placeholder="Complemento Endereço" required>
+                            <input type="text" id="cidade" class="modal-field" placeholder="Cidade do Funcionarios" required>
+                            <input type="text" id="estado"class="modal-field" placeholder="Estado do Funcionarios" required>
+                            <input type="text" id="Cpf"data-index="new" class="modal-field" placeholder="Cpf do Funcionarios" required>
+                            <input type="text" id="função"class="modal-field" placeholder="função do Funcionarios" required>
+                        </form>
+                        <footer class="modal-footer"></footer>
+                            <button id="salvar" class="button green">salvar</button>
+                            <button id="Cancerlar" class="button blue">Cancelar</button>
+                               
+                        </footer>
+
+                    </div>
+                </div>
+
 
     </div>
     

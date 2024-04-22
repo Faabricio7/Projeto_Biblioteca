@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'Montebello';
+    src: url(Montebello-Regular.ttf)fornat("truetype"),url(Montebello);
+}
